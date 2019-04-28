@@ -1,0 +1,377 @@
+.App {
+}
+
+.Review {
+	border: 2px solid darkslategray;
+	width: 1100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	/* padding:30px; */
+	display: flex;
+	/* justify-content: center; */
+	/* align-items: center; */
+	flex-direction: column;
+	background: #d9c9ae;
+	padding-bottom: 90px;
+}
+
+
+.Review-Text {
+	width: 600px;
+	margin-left: 20px;
+}
+.Review-Title {
+	text-align: center;
+}
+.Review-Top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+
+	margin-bottom: 20px;
+}
+h4 {
+	margin-left: 25px;
+}
+
+.Star-Rating {
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.Review-Wrapper {
+	display: flex;
+	margin-bottom: 20px;
+	flex-direction: row;
+}
+
+.Review-Image {
+	max-height: 80px;
+	max-width: 80px;
+	margin-left: 60px;
+}
+.spacer{
+	height:200px;
+	
+}
+.Login-Page {
+	background-image: url(images/facebook_cover_photo_2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top:499px;
+	height:400px;
+
+	padding-bottom: 300px;
+	padding-top: 30px;
+}
+.login-form {
+	display: flex;  
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+margin:0 auto;
+text-align:center;
+	width: 270px;
+	margin-top:50px;
+	
+	background-color: black;
+
+	
+}
+.Review-Field{
+	width:400px;
+	height:200px;
+	text-align:start;
+}
+.Agg-Rating {
+	font-size: 35px;
+	margin-right: 200px;
+}
+
+.Register-Form-Wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	width: 500px;
+	
+	background-color: whitesmoke;
+	opacity: .8;
+	border-radius: 8px;
+	padding-bottom: 200px;
+	padding-top: 70px;
+
+	margin-bottom: 45px;
+}
+.Book-Image {
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+}
+.Cover-Image {
+	width: 41%;
+}
+
+.Register-Wrapper {
+	background: #d9c9ae;
+	padding-bottom:600px;
+	background-image: url("https://images.unsplash.com/photo-1532153955177-f59af40d6472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:20px;
+
+}
+input {
+	margin: 9px;
+	border: 2px solid darkslategray;
+	border-radius: 5px;
+	font-size: 20px;
+	background: whitesmoke;
+}
+button {
+	background: #cd871b;
+	padding: 5px 50px 5px 50px;
+	color: whitesmoke;
+	border-radius: 8px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+button:hover {
+	background: #4286f4;
+	outline: none;
+}
+button:active {
+	outline: none;
+	border: none;
+}
+body {
+	background: whitesmoke;
+}
+h2 {
+	margin-right: 15px;
+	text-align: center;
+}
+h3 {
+	margin-bottom: 40px;
+}
+
+.NavLinks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 15px;
+	background-image: linear-gradient(to right top, #120537, #003e79, #0077aa, #00b2bc, #12ebb4);
+	height: 90px;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius: 5px;
+}
+.Link {
+	text-decoration: none;
+	color: whitesmoke;
+	background: #cd871b;
+	padding: 5px 50px 5px 50px;
+	margin-top: 25px;
+	border-radius: 5px;
+}
+/* .nav-link a.active {
+	text-shadow: 2px 1px #4286f4;
+	background:darkseagreen;
+	border:2px solid yellow;
+	
+} */
+.nav-link a {
+	text-decoration: none;
+	color: whitesmoke;
+	background: #4286f4;
+	padding: 5px 25px 5px 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.nav-link2 a{
+	text-decoration: none;
+	color: whitesmoke;
+	background: #4286f4;
+	padding: 5px 25px 5px 25px;
+	border-radius: 5px;
+	margin-right: 10px;
+
+}
+.nav-link2 a:hover {
+	background: #cd871b;
+	
+}
+.nav-link a:hover {
+	background: #cd871b;
+}
+/* .NavLink{
+	text-decoration:none;
+	color:whitesmoke;
+	background:#4286f4;
+	padding:5px 25px 5px 25px;
+	border-radius:5px;
+} */
+.NavLink .active {
+	box-shadow: 5px 10px;
+}
+.book-link {
+	text-decoration: none;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Books {
+	border: 2px solid darkslategray;
+	border-radius: 5px;
+	color: black;
+	background-image: linear-gradient(to right top, #711bcf, #006df3, #0092e0, #00aabc, #7abbaa);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/* margin: 10px; */
+	height: 550px;
+	width:350px;
+	
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.Update-Delete{
+	display:flex;
+	width:800px;
+	justify-content: flex-end;
+	margin-top:10px;
+	flex-direction:column;
+	align-items: center;
+
+	
+
+}
+.Review-Button{
+margin-top:20px;
+margin-left:10px;
+}
+.Book-Image {
+    width: 600px;
+    margin: 0 auto;
+	text-align: center;
+	padding-bottom:100px;
+}
+.Delete-Button{
+	margin-bottom:20px;
+
+}
+.Cover-Image {
+    width: 41%;
+} 
+.Modal-Btn{
+	margin:15px;
+	/* border:5px solid purple; */
+}
+.Book {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: space-evenly; */
+	margin: 0 auto;
+	width: 1200px;
+	border: 2px solid darkslategray;
+	border-radius: 5px;
+	background-image: linear-gradient(to right top, #711bcf, #006df3, #0092e0, #00aabc, #7abbaa);
+}
+.BookInfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* margin: 10px 10px 10px 10px; */
+	/* height:600px; */
+}
+.Delete-Book {
+	width: 200px;
+	margin-right: 800px;
+}
+.Book-Top {
+	display: flex;
+	/* justify-content:center; */
+	align-items: center;
+	flex-direction: column;
+	/* height: 700px; */
+}
+.book-link{
+	
+	margin:0 auto;
+	
+}
+.Book-Flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin:0 auto;
+	padding-top: 40px;
+	border-radius: 5px;
+	width:1240px;
+	max-width:1240px;
+
+	
+	
+}
+
+.book-list {
+	margin-top: 10px;
+}
+.BookInfo {
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: column;
+	margin: 30px 10px 10px 10px;
+	background:whitesmoke;
+	border-radius:5px;
+	border:2px solid darkslategray;
+}
+li{
+	margin:10px;
+}
+.Book-Page {
+	background: #d9c9ae;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Books-Content {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+.Login-Title {
+	color: whitesmoke;
+}
+.Register-Btn {
+	margin-top: 45px;
+	padding: 10px 85px 10px 85px;
+}
+
+.displayNone {
+	display: none;
+}
