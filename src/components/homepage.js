@@ -12,7 +12,7 @@ class homepage extends Component {
 <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="stuffs" className="header-image"></img>
 </div>
         
-        <p className='header-text'>At Philanthrop.io We are working to make donations of all kinds as seemless and easy as possible. <br/><br/>Whether it's monetary, physical goods, or volunteer sceduling we're here for you every step of the way.</p>
+        <p className='header-text'>At Philanthrop.io We are working to make donations of all kinds as seemless and easy as possible. <br/><br/>Whether it's monetary, physical goods, or scheduling volunteer times,git  we're here for you every step of the way.</p>
     </section>
     <div className="midContent">
     <div className="card">
