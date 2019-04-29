@@ -65,7 +65,7 @@ class App extends Component {
 					render={(props) => (this.props.loggingIn ? <Redirect to="/protected" /> : <Login {...props} />)}
 				/>
 				<Route path="/register" component={Register} />
-				{/* <PrivateRoute exact path="/" component={BookList} /> */}
+				
 				<PrivateRoute exact path="/protected" component={BookList} />
 				<PrivateRoute exact path="/protected/:id" component={BookPage} />
 				<Route path="/protected/:id/reviewform" component={ReviewForm} />
