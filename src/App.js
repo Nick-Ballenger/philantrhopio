@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
 import { Route, NavLink, withRouter, Redirect } from 'react-router-dom';
-import Footer from './components/footer';
 import BookPage from './components/bookpage';
 import Register from './components/loginRegister/register';
 import BookList from './components/bookList';
@@ -11,6 +10,8 @@ import Login from './components/loginRegister/login';
 import ReviewForm from './components/reviewForm';
 import HomePage from './components/homepage'
 import { tokenExist, logOut } from './actions';
+import Scheduler from './components/scheduler'
+
 
 
 class App extends Component {
@@ -53,7 +54,9 @@ class App extends Component {
 							<NavLink className="NavLink" to="/protected">
 								Donate
 							</NavLink>
-							
+							<NavLink className="NavLink" to="/scheduler">
+								Scheduler
+							</NavLink>
 						</div>
 					)}
 					<button className={this.props.loggingIn ? 'loginOutBtn' : 'displayNone'} onClick={this.logOut}>
@@ -67,10 +70,11 @@ class App extends Component {
 				<Route path="/register" component={Register} />
 				
 				<PrivateRoute exact path="/protected" component={BookList} />
+				<PrivateRoute exact path="/scheduler" component={Scheduler} />
 				<PrivateRoute exact path="/protected/:id" component={BookPage} />
 				<Route path="/protected/:id/reviewform" component={ReviewForm} />
 				<Route exact path ="/" component={HomePage}/>
-				<Footer />
+			
 			</div>
 		);
 	}
